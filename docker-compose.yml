@@ -208,8 +208,7 @@ services:
   httpd:
     image: httpd:latest
     ports:
-      - 80:80
-      - 443:80
+      - 8089:80
     networks:
       - fisu-net
 
